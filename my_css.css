@@ -1,0 +1,167 @@
+*{
+  font-weight:400;
+  background-color:white;
+}
+html,body{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+hr{
+  border: none;
+  border-bottom: solid 4px #FF7168;
+  width: 100%;
+  margin-left: 0;
+}
+.Smallhr{
+  border: none;
+  border-bottom: solid 3px #FF7168;
+  width: 28%;
+  margin-left: 0;
+}
+.Name{
+  justify-content: center;
+  align-items: center;
+}
+h1{
+  margin: -5px;
+  margin-left:0;
+  font-weight:bolder;
+}
+.Experienceshr{
+  border: none;
+  border-bottom: solid 3px #FF7168;
+  width: 47%;
+  margin-left: 0;
+}
+.School,.Skills,.Languages{
+  font-weight:bolder;
+}
+.circle{
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  background-color: ;
+}
+.circle::after{
+  content: "";
+  display: block;
+  background-color: white;
+  width: calc(100% - 20px);
+  height: calc(100% - 20px);
+  border-radius: 50%;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%)
+}
+.p90,.p180,.p270,.p360{
+  width: 50%;
+  height: 50%;
+  position: absolute;
+  left: 50%;
+  top: 0;
+  background-color: #FF7168;
+}
+.p180{
+  top: 50%;
+}
+.p270{
+  left: 0;
+  top: 50%;
+}
+.p360{
+  left: 0;
+  top: 0;
+}
+.listSkill{
+  display: flex;
+  flex-wrap: wrap;
+}
+.listSkill{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.listSkill li{
+  width: 25%;
+  padding: 5px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  text-align: left;
+}
+
+/* list program */
+
+.listProgram .bar{
+  width: 150px;
+  height: 10px;
+  border: solid 2px #FF7168;
+  border-radius: 5px;
+}
+.listProgram li{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding:10px 300px 0px 0px;  
+}
+.value{
+  height: 100%;
+  width: 60%;
+  background-color: #FF7168;
+}
+.value.p10{
+  width: 10%;
+}
+  
+.value.p20{
+  width: 20%;
+}
+.value.p30{
+  width: 30%;
+}
+.value.p40{
+  width: 40%;
+}
+.value.p50{
+  width: 50%;
+}
+.value.p60{
+  width: 60%;
+}
+.value.p70{
+  width: 70%;
+}
+.value.p80{
+  width: 80%;
+}
+.value.p90{
+  width: 90%;
+}
+
+.value.p100{
+  width: 100%;
+}
+.right{
+  position:absolute;
+  border-radius:50%;
+  right: 100px;
+  top: 10px;
+  margin-top:0;
+  height:165px;
+  width:165px;
+  background-image: url(https://scontent.ftpe8-2.fna.fbcdn.net/v/t1.0-9/35051089_2474819682544242_9147098180796547072_o.jpg?_nc_cat=0&oh=e69dbfdb31636bd31e1eced346725459&oe=5BFDBAF5);
+  background-size:contain;
+}
+.left{
+  position:relative;
+}
+
+
